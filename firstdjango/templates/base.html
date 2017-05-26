@@ -1,0 +1,17 @@
+{% load staticfiles %}
+<DOCTYPE =html>
+  <html>
+    <head>
+      <meta charset="utf-8"/>
+      <title>Inventory Project</title>
+      <meta name="description" content=""/>
+      <link rel="stylesheet" href="{% static 'styles.css' %}"/>
+      <link rel="stylesheet" href="{% static 'Normalize.css' %}"/>
+    </head>
+    <body>
+      <div class="heading">The Supermakret Inventory</div>
+    </br>
+      {% block content %}
+      {% endblock content %}
+    </body>
+  </html>
